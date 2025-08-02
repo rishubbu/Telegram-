@@ -2,13 +2,13 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import os
 
-API_ID = int(os.environ.get("API_ID"))
-API_HASH = os.environ.get("API_HASH")
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_ID = int(os.environ.get("ADMIN_ID"))
-REQUIRED_CHANNELS = os.environ.get("REQUIRED_CHANNELS", "").split()
+API_ID = int(os.environ.get("27589191"))
+API_HASH = os.environ.get("094c70fee92b47679abeeb0922e12440")
+BOT_TOKEN = os.environ.get("8270942595:AAHtDgwKa1zCONWl-ZoH_KUGL2BkPEITyaQ")
+ADMIN_ID = int(os.environ.get("7649370492"))
+REQUIRED_CHANNELS = os.environ.get("https://t.me/oy_baby").split()
 
-app = Client("RealStarBot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+app = Client("Userbotbyrishu_bot", api_id=27589191, api_hash=094c70fee92b47679abeeb0922e12440, bot_token=8270942595:AAHtDgwKa1zCONWl-ZoH_KUGL2BkPEITyaQ)
 
 users = {}
 
